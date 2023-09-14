@@ -7,18 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB1A6E052AB32B7A00113E2C /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1A6E042AB32B7A00113E2C /* AboutView.swift */; };
+		BBC062772AB302AE0023FDEC /* RestaurantList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC062762AB302AE0023FDEC /* RestaurantList.swift */; };
+		BBC062792AB306DD0023FDEC /* RestaurantDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC062782AB306DD0023FDEC /* RestaurantDetail.swift */; };
+		BBC0627B2AB3090B0023FDEC /* MenuRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC0627A2AB3090B0023FDEC /* MenuRow.swift */; };
+		BBC0627D2AB30FB10023FDEC /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC0627C2AB30FB10023FDEC /* CategoryRow.swift */; };
 		BBD6DA202AB00C7400DAA2F7 /* PopinaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD6DA1F2AB00C7400DAA2F7 /* PopinaApp.swift */; };
 		BBD6DA222AB00C7400DAA2F7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD6DA212AB00C7400DAA2F7 /* ContentView.swift */; };
 		BBD6DA242AB00C7500DAA2F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBD6DA232AB00C7500DAA2F7 /* Assets.xcassets */; };
 		BBD6DA272AB00C7500DAA2F7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBD6DA262AB00C7500DAA2F7 /* Preview Assets.xcassets */; };
+		BBD6DA2E2AB0177B00DAA2F7 /* Restaurants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD6DA2D2AB0177B00DAA2F7 /* Restaurants.swift */; };
+		BBD6DA302AB01A9400DAA2F7 /* RestaurantRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD6DA2F2AB01A9400DAA2F7 /* RestaurantRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BB1A6E042AB32B7A00113E2C /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		BBC062762AB302AE0023FDEC /* RestaurantList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantList.swift; sourceTree = "<group>"; };
+		BBC062782AB306DD0023FDEC /* RestaurantDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetail.swift; sourceTree = "<group>"; };
+		BBC0627A2AB3090B0023FDEC /* MenuRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuRow.swift; sourceTree = "<group>"; };
+		BBC0627C2AB30FB10023FDEC /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
 		BBD6DA1C2AB00C7400DAA2F7 /* Popina.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Popina.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBD6DA1F2AB00C7400DAA2F7 /* PopinaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopinaApp.swift; sourceTree = "<group>"; };
 		BBD6DA212AB00C7400DAA2F7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BBD6DA232AB00C7500DAA2F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BBD6DA262AB00C7500DAA2F7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BBD6DA2D2AB0177B00DAA2F7 /* Restaurants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurants.swift; sourceTree = "<group>"; };
+		BBD6DA2F2AB01A9400DAA2F7 /* RestaurantRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +69,13 @@
 				BBD6DA212AB00C7400DAA2F7 /* ContentView.swift */,
 				BBD6DA232AB00C7500DAA2F7 /* Assets.xcassets */,
 				BBD6DA252AB00C7500DAA2F7 /* Preview Content */,
+				BBD6DA2D2AB0177B00DAA2F7 /* Restaurants.swift */,
+				BBD6DA2F2AB01A9400DAA2F7 /* RestaurantRow.swift */,
+				BBC062762AB302AE0023FDEC /* RestaurantList.swift */,
+				BBC062782AB306DD0023FDEC /* RestaurantDetail.swift */,
+				BBC0627A2AB3090B0023FDEC /* MenuRow.swift */,
+				BBC0627C2AB30FB10023FDEC /* CategoryRow.swift */,
+				BB1A6E042AB32B7A00113E2C /* AboutView.swift */,
 			);
 			path = Popina;
 			sourceTree = "<group>";
@@ -137,8 +158,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBC062772AB302AE0023FDEC /* RestaurantList.swift in Sources */,
+				BBC0627B2AB3090B0023FDEC /* MenuRow.swift in Sources */,
+				BBC0627D2AB30FB10023FDEC /* CategoryRow.swift in Sources */,
 				BBD6DA222AB00C7400DAA2F7 /* ContentView.swift in Sources */,
+				BBD6DA2E2AB0177B00DAA2F7 /* Restaurants.swift in Sources */,
+				BBC062792AB306DD0023FDEC /* RestaurantDetail.swift in Sources */,
 				BBD6DA202AB00C7400DAA2F7 /* PopinaApp.swift in Sources */,
+				BB1A6E052AB32B7A00113E2C /* AboutView.swift in Sources */,
+				BBD6DA302AB01A9400DAA2F7 /* RestaurantRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
